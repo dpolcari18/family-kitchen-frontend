@@ -1,7 +1,7 @@
 import React from 'react'
 import {useQuery, gql} from '@apollo/client'
 
-import NavBar from './components/navBar.js'
+import NavBar from './components/navBar'
 
 const USER_QUERY = gql`query userQuery { user (id: 5) { id, families { id, name } } }`
 

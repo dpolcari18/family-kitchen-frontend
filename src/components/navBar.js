@@ -1,5 +1,4 @@
 // src/components/navBar.js
-
 import React from "react";
 
 // import MainNav from "./mainNav";
